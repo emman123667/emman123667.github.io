@@ -1,0 +1,65 @@
+body {
+    font-family: "Lexend";
+    font-size: 20px;
+}
+
+body[data-theme="light"] {
+    background-color: #e6e6e6; 
+    /* background-color: #333;
+    color: #fff; */
+}
+
+body[data-theme="dark"] {
+    background-color: #222;
+    color: white;
+}
+
+body[data-theme="dark"] a {
+    color: white;
+}
+
+div#themeSwitcherSection {
+    text-align: right;
+}
+
+div#mainHeader {
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 140px;
+}
+
+div#mainHeader[data-theme="light"] {
+    border: 8px solid black;
+}
+
+div#mainHeader[data-theme="dark"] {
+    border: 8px solid white;
+}
+
+div.straightLine[data-theme="light"] {
+    /* border: 2px solid white; */
+    border: 4px solid black;
+}
+
+div.straightLine[data-theme="dark"] {
+    /* border: 2px solid white; */
+    border: 4px solid white;
+}
+
+div.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+div.mainContent h1 {
+    font-size: 55px;
+}
+
+div.mainContent h2 {
+    font-size: 40px;
+}
+
+div.mainContent {
+    font-size: 22px;
+}
